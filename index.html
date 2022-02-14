@@ -7,15 +7,25 @@
     <link rel="stylesheet" href="./index.css">
     <script type="module" src="./index.js" defer></script>
 
-    <title>Document</title>
+    <title>Calculo Imc</title>
 </head>
 <body>
     <main>
-        <div id="text">
+        <div id="textCenter">
+            <div id="calculoImc">
             <h1>Calcule o Seu IMC</h1>
+            <p>Peso</p>
+                <p id="resultPeso"> 00</p>
+            <input id="peso" type="range" min="0" max="150" class="slider" >
 
-            
+            <p>Altura</p>
+            <p id="resulAltura"> 00</p>
+            <input id="altura" type="range" min="0" max="250" class="slider">
 
+            <button id="button" type="button">Calcular</button>
+
+            <h2 id="resultado"></h2>           
+        </div>
         </div>
 
     </main>
